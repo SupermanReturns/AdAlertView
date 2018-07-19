@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2FACB52100AEED002971DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACB42100AEED002971DB /* AppDelegate.m */; };
+		CF2FACB82100AEED002971DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACB72100AEED002971DB /* ViewController.m */; };
+		CF2FACBB2100AEED002971DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2FACB92100AEED002971DB /* Main.storyboard */; };
+		CF2FACBD2100AEF4002971DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2FACBC2100AEF4002971DB /* Assets.xcassets */; };
+		CF2FACC02100AEF4002971DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2FACBE2100AEF4002971DB /* LaunchScreen.storyboard */; };
+		CF2FACC32100AEF4002971DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACC22100AEF4002971DB /* main.m */; };
+		CF2FACCD2100AEF4002971DB /* AdAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACCC2100AEF4002971DB /* AdAlertViewTests.m */; };
+		CF2FACD82100AEF4002971DB /* AdAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACD72100AEF4002971DB /* AdAlertViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2FACC92100AEF4002971DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2FACA82100AEEC002971DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2FACAF2100AEEC002971DB;
+			remoteInfo = AdAlertView;
+		};
+		CF2FACD42100AEF4002971DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2FACA82100AEEC002971DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2FACAF2100AEEC002971DB;
+			remoteInfo = AdAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF2FACB02100AEEC002971DB /* AdAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2FACB32100AEED002971DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF2FACB42100AEED002971DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF2FACB62100AEED002971DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF2FACB72100AEED002971DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF2FACBA2100AEED002971DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF2FACBC2100AEF4002971DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF2FACBF2100AEF4002971DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF2FACC12100AEF4002971DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2FACC22100AEF4002971DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF2FACC82100AEF4002971DB /* AdAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2FACCC2100AEF4002971DB /* AdAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdAlertViewTests.m; sourceTree = "<group>"; };
+		CF2FACCE2100AEF4002971DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2FACD32100AEF4002971DB /* AdAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2FACD72100AEF4002971DB /* AdAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdAlertViewUITests.m; sourceTree = "<group>"; };
+		CF2FACD92100AEF4002971DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2FACAD2100AEEC002971DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FACC52100AEF4002971DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FACD02100AEF4002971DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2FACA72100AEEC002971DB = {
+			isa = PBXGroup;
+			children = (
+				CF2FACB22100AEEC002971DB /* AdAlertView */,
+				CF2FACCB2100AEF4002971DB /* AdAlertViewTests */,
+				CF2FACD62100AEF4002971DB /* AdAlertViewUITests */,
+				CF2FACB12100AEEC002971DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2FACB12100AEEC002971DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2FACB02100AEEC002971DB /* AdAlertView.app */,
+				CF2FACC82100AEF4002971DB /* AdAlertViewTests.xctest */,
+				CF2FACD32100AEF4002971DB /* AdAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2FACB22100AEEC002971DB /* AdAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CF2FACB32100AEED002971DB /* AppDelegate.h */,
+				CF2FACB42100AEED002971DB /* AppDelegate.m */,
+				CF2FACB62100AEED002971DB /* ViewController.h */,
+				CF2FACB72100AEED002971DB /* ViewController.m */,
+				CF2FACB92100AEED002971DB /* Main.storyboard */,
+				CF2FACBC2100AEF4002971DB /* Assets.xcassets */,
+				CF2FACBE2100AEF4002971DB /* LaunchScreen.storyboard */,
+				CF2FACC12100AEF4002971DB /* Info.plist */,
+				CF2FACC22100AEF4002971DB /* main.m */,
+			);
+			path = AdAlertView;
+			sourceTree = "<group>";
+		};
+		CF2FACCB2100AEF4002971DB /* AdAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2FACCC2100AEF4002971DB /* AdAlertViewTests.m */,
+				CF2FACCE2100AEF4002971DB /* Info.plist */,
+			);
+			path = AdAlertViewTests;
+			sourceTree = "<group>";
+		};
+		CF2FACD62100AEF4002971DB /* AdAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2FACD72100AEF4002971DB /* AdAlertViewUITests.m */,
+				CF2FACD92100AEF4002971DB /* Info.plist */,
+			);
+			path = AdAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2FACAF2100AEEC002971DB /* AdAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2FACDC2100AEF4002971DB /* Build configuration list for PBXNativeTarget "AdAlertView" */;
+			buildPhases = (
+				CF2FACAC2100AEEC002971DB /* Sources */,
+				CF2FACAD2100AEEC002971DB /* Frameworks */,
+				CF2FACAE2100AEEC002971DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdAlertView;
+			productName = AdAlertView;
+			productReference = CF2FACB02100AEEC002971DB /* AdAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF2FACC72100AEF4002971DB /* AdAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2FACDF2100AEF4002971DB /* Build configuration list for PBXNativeTarget "AdAlertViewTests" */;
+			buildPhases = (
+				CF2FACC42100AEF4002971DB /* Sources */,
+				CF2FACC52100AEF4002971DB /* Frameworks */,
+				CF2FACC62100AEF4002971DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2FACCA2100AEF4002971DB /* PBXTargetDependency */,
+			);
+			name = AdAlertViewTests;
+			productName = AdAlertViewTests;
+			productReference = CF2FACC82100AEF4002971DB /* AdAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF2FACD22100AEF4002971DB /* AdAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2FACE22100AEF4002971DB /* Build configuration list for PBXNativeTarget "AdAlertViewUITests" */;
+			buildPhases = (
+				CF2FACCF2100AEF4002971DB /* Sources */,
+				CF2FACD02100AEF4002971DB /* Frameworks */,
+				CF2FACD12100AEF4002971DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2FACD52100AEF4002971DB /* PBXTargetDependency */,
+			);
+			name = AdAlertViewUITests;
+			productName = AdAlertViewUITests;
+			productReference = CF2FACD32100AEF4002971DB /* AdAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2FACA82100AEEC002971DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Superman;
+				TargetAttributes = {
+					CF2FACAF2100AEEC002971DB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CF2FACC72100AEF4002971DB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF2FACAF2100AEEC002971DB;
+					};
+					CF2FACD22100AEF4002971DB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF2FACAF2100AEEC002971DB;
+					};
+				};
+			};
+			buildConfigurationList = CF2FACAB2100AEEC002971DB /* Build configuration list for PBXProject "AdAlertView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF2FACA72100AEEC002971DB;
+			productRefGroup = CF2FACB12100AEEC002971DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2FACAF2100AEEC002971DB /* AdAlertView */,
+				CF2FACC72100AEF4002971DB /* AdAlertViewTests */,
+				CF2FACD22100AEF4002971DB /* AdAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2FACAE2100AEEC002971DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2FACC02100AEF4002971DB /* LaunchScreen.storyboard in Resources */,
+				CF2FACBD2100AEF4002971DB /* Assets.xcassets in Resources */,
+				CF2FACBB2100AEED002971DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FACC62100AEF4002971DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FACD12100AEF4002971DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2FACAC2100AEEC002971DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2FACB82100AEED002971DB /* ViewController.m in Sources */,
+				CF2FACC32100AEF4002971DB /* main.m in Sources */,
+				CF2FACB52100AEED002971DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FACC42100AEF4002971DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2FACCD2100AEF4002971DB /* AdAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FACCF2100AEF4002971DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2FACD82100AEF4002971DB /* AdAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2FACCA2100AEF4002971DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2FACAF2100AEEC002971DB /* AdAlertView */;
+			targetProxy = CF2FACC92100AEF4002971DB /* PBXContainerItemProxy */;
+		};
+		CF2FACD52100AEF4002971DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2FACAF2100AEEC002971DB /* AdAlertView */;
+			targetProxy = CF2FACD42100AEF4002971DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF2FACB92100AEED002971DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2FACBA2100AEED002971DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF2FACBE2100AEF4002971DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2FACBF2100AEF4002971DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2FACDA2100AEF4002971DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF2FACDB2100AEF4002971DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2FACDD2100AEF4002971DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2FACDE2100AEF4002971DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF2FACE02100AEF4002971DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdAlertView.app/AdAlertView";
+			};
+			name = Debug;
+		};
+		CF2FACE12100AEF4002971DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdAlertView.app/AdAlertView";
+			};
+			name = Release;
+		};
+		CF2FACE32100AEF4002971DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdAlertView;
+			};
+			name = Debug;
+		};
+		CF2FACE42100AEF4002971DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2FACAB2100AEEC002971DB /* Build configuration list for PBXProject "AdAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2FACDA2100AEF4002971DB /* Debug */,
+				CF2FACDB2100AEF4002971DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2FACDC2100AEF4002971DB /* Build configuration list for PBXNativeTarget "AdAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2FACDD2100AEF4002971DB /* Debug */,
+				CF2FACDE2100AEF4002971DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2FACDF2100AEF4002971DB /* Build configuration list for PBXNativeTarget "AdAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2FACE02100AEF4002971DB /* Debug */,
+				CF2FACE12100AEF4002971DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2FACE22100AEF4002971DB /* Build configuration list for PBXNativeTarget "AdAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2FACE32100AEF4002971DB /* Debug */,
+				CF2FACE42100AEF4002971DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2FACA82100AEEC002971DB /* Project object */;
+}
