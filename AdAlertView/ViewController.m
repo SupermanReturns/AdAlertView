@@ -45,7 +45,7 @@
         _showBtn        = [UIButton buttonWithType:UIButtonTypeCustom];
         _showBtn.center = self.view.center;
         _showBtn.bounds = CGRectMake(0, 0, 100, 60);
-        [_showBtn setTitle:@"弹出广告" forState:UIControlStateNormal];
+        [_showBtn setTitle:@"弹出视图" forState:UIControlStateNormal];
         [_showBtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
         [_showBtn addTarget:self action:@selector(showAdAlertView) forControlEvents:UIControlEventTouchUpInside];
     }

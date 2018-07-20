@@ -18,6 +18,12 @@
 		CF2FACE8210177D7002971DB /* AdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACE7210177D6002971DB /* AdModel.m */; };
 		CF2FACEB2101781C002971DB /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACEA2101781C002971DB /* WebVC.m */; };
 		CF2FACEE21017A0C002971DB /* AdAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACED21017A0C002971DB /* AdAlertView.m */; };
+		CF2FACF42101AC77002971DB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2FACEF2101AC75002971DB /* 1.png */; };
+		CF2FACF52101AC77002971DB /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2FACF02101AC76002971DB /* 5.png */; };
+		CF2FACF62101AC77002971DB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2FACF12101AC76002971DB /* 2.png */; };
+		CF2FACF72101AC77002971DB /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2FACF22101AC77002971DB /* 3.png */; };
+		CF2FACF82101AC77002971DB /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2FACF32101AC77002971DB /* 4.png */; };
+		CF2FACFA2101AC7E002971DB /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2FACF92101AC7E002971DB /* close.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,12 @@
 		CF2FACEA2101781C002971DB /* WebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebVC.m; sourceTree = "<group>"; };
 		CF2FACEC21017A0C002971DB /* AdAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdAlertView.h; sourceTree = "<group>"; };
 		CF2FACED21017A0C002971DB /* AdAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdAlertView.m; sourceTree = "<group>"; };
+		CF2FACEF2101AC75002971DB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CF2FACF02101AC76002971DB /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		CF2FACF12101AC76002971DB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CF2FACF22101AC77002971DB /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		CF2FACF32101AC77002971DB /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		CF2FACF92101AC7E002971DB /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,12 @@
 				CF2FACB62100AEED002971DB /* ViewController.h */,
 				CF2FACB72100AEED002971DB /* ViewController.m */,
 				CF2FACB92100AEED002971DB /* Main.storyboard */,
+				CF2FACEF2101AC75002971DB /* 1.png */,
+				CF2FACF12101AC76002971DB /* 2.png */,
+				CF2FACF22101AC77002971DB /* 3.png */,
+				CF2FACF32101AC77002971DB /* 4.png */,
+				CF2FACF02101AC76002971DB /* 5.png */,
+				CF2FACF92101AC7E002971DB /* close.png */,
 				CF2FACBC2100AEF4002971DB /* Assets.xcassets */,
 				CF2FACBE2100AEF4002971DB /* LaunchScreen.storyboard */,
 				CF2FACC12100AEF4002971DB /* Info.plist */,
@@ -258,8 +276,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2FACFA2101AC7E002971DB /* close.png in Resources */,
+				CF2FACF62101AC77002971DB /* 2.png in Resources */,
 				CF2FACC02100AEF4002971DB /* LaunchScreen.storyboard in Resources */,
+				CF2FACF52101AC77002971DB /* 5.png in Resources */,
+				CF2FACF42101AC77002971DB /* 1.png in Resources */,
+				CF2FACF82101AC77002971DB /* 4.png in Resources */,
 				CF2FACBD2100AEF4002971DB /* Assets.xcassets in Resources */,
+				CF2FACF72101AC77002971DB /* 3.png in Resources */,
 				CF2FACBB2100AEED002971DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

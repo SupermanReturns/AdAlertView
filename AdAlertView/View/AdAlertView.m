@@ -56,6 +56,9 @@
         [self showAlertAnimation];
         UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(removeFromCurrentView:)];
         [self addGestureRecognizer:tapGesture];
+        
+        
+
     }
     return self;
 }
@@ -90,7 +93,7 @@
 -(UIScrollView *)scrollView{
     if (!_scrollView) {
         _scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, ScreenHeight/2-420/2, ScreenWidth, 420)];
-        _scrollView.backgroundColor         = [UIColor clearColor];
+        _scrollView.backgroundColor         = [UIColor yellowColor];
         _scrollView.userInteractionEnabled  = YES;
         _scrollView.contentSize     = CGSizeMake(self.frame.size.width*_itemsCount, 410);
         _scrollView.delegate        = self;
@@ -116,6 +119,7 @@
         self.hiddenPageControl = YES;
     }
     [self addSubview:self.scrollView];
+
     
     for ( int i = 0; i < _itemsCount; i++ ) {
         AdModel *adModel = [_adDataList objectAtIndex:i];
