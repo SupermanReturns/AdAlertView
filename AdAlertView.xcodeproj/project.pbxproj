@@ -15,6 +15,9 @@
 		CF2FACC32100AEF4002971DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACC22100AEF4002971DB /* main.m */; };
 		CF2FACCD2100AEF4002971DB /* AdAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACCC2100AEF4002971DB /* AdAlertViewTests.m */; };
 		CF2FACD82100AEF4002971DB /* AdAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACD72100AEF4002971DB /* AdAlertViewUITests.m */; };
+		CF2FACE8210177D7002971DB /* AdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACE7210177D6002971DB /* AdModel.m */; };
+		CF2FACEB2101781C002971DB /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACEA2101781C002971DB /* WebVC.m */; };
+		CF2FACEE21017A0C002971DB /* AdAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2FACED21017A0C002971DB /* AdAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CF2FACD32100AEF4002971DB /* AdAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2FACD72100AEF4002971DB /* AdAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdAlertViewUITests.m; sourceTree = "<group>"; };
 		CF2FACD92100AEF4002971DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2FACE6210177D6002971DB /* AdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdModel.h; sourceTree = "<group>"; };
+		CF2FACE7210177D6002971DB /* AdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdModel.m; sourceTree = "<group>"; };
+		CF2FACE92101781C002971DB /* WebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebVC.h; sourceTree = "<group>"; };
+		CF2FACEA2101781C002971DB /* WebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebVC.m; sourceTree = "<group>"; };
+		CF2FACEC21017A0C002971DB /* AdAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdAlertView.h; sourceTree = "<group>"; };
+		CF2FACED21017A0C002971DB /* AdAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		CF2FACB22100AEEC002971DB /* AdAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				CF2FACE5210176E3002971DB /* View */,
 				CF2FACB32100AEED002971DB /* AppDelegate.h */,
 				CF2FACB42100AEED002971DB /* AppDelegate.m */,
 				CF2FACB62100AEED002971DB /* ViewController.h */,
@@ -130,6 +140,19 @@
 				CF2FACD92100AEF4002971DB /* Info.plist */,
 			);
 			path = AdAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		CF2FACE5210176E3002971DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF2FACE6210177D6002971DB /* AdModel.h */,
+				CF2FACE7210177D6002971DB /* AdModel.m */,
+				CF2FACE92101781C002971DB /* WebVC.h */,
+				CF2FACEA2101781C002971DB /* WebVC.m */,
+				CF2FACEC21017A0C002971DB /* AdAlertView.h */,
+				CF2FACED21017A0C002971DB /* AdAlertView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2FACEB2101781C002971DB /* WebVC.m in Sources */,
 				CF2FACB82100AEED002971DB /* ViewController.m in Sources */,
+				CF2FACEE21017A0C002971DB /* AdAlertView.m in Sources */,
 				CF2FACC32100AEF4002971DB /* main.m in Sources */,
+				CF2FACE8210177D7002971DB /* AdModel.m in Sources */,
 				CF2FACB52100AEED002971DB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = AdAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,7 +468,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = AdAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,7 +485,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
